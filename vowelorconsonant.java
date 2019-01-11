@@ -1,6 +1,6 @@
 import java.util.Scanner;
-class VowelConsonanat{
-public ststic void main(String[] args){
+class VowelConsonant{
+public static void main(String[] args){
 Scanner sc=new Scanner(System.in);
 String vowel="aeiou";
 String consonant="bcdfghjklmnpqrstvwxyz";
