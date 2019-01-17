@@ -7,9 +7,12 @@ class SumOfN
 		int sum=0,num=0;
 		if(sc.hasNextInt()){
 			num=sc.nextInt();
+			if(num>0){
 			for(int i=1;i<=num;i++)
 			sum+=i;
-			System.out.print(sum);
+			System.out.print(sum);}
+			else
+			System.out.print("Invalid Input");
 		}
 		else
 		System.out.print("Invalid Input");
