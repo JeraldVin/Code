@@ -19,5 +19,6 @@ class Display
 		System.out.print(i+" ");
 		else
 		System.out.print(i);
+		}
 	}
 }
