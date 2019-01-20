@@ -14,6 +14,10 @@ class Display
 		if(q%2==0)
 		q--;
 		for(int i=n;i<=q;i+=2)
+		{
+		if(i<q)
 		System.out.print(i+" ");
+		else
+		System.out.print(i);
 	}
 }
