@@ -1,6 +1,7 @@
 st,en=input().split(" ")
 start=int(st)
 end=int(en)
+ans=[]
 for i in range(start+1,end):
 	if i==1:
 		continue
@@ -12,4 +13,9 @@ for i in range(start+1,end):
 			flag=1
 			break
 	if flag==0:
-		print(i,end=" ")
+		ans.append(i)
+for i in range(0,len(ans)):
+	if i==len(ans)-1:
+		print(ans[i],end="")
+	else:
+		print(ans[i],end=" ")
