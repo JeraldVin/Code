@@ -1,4 +1,4 @@
-#new program
+//new program
 import java.util.Scanner;
 import java.util.Arrays;
 class Maximum
