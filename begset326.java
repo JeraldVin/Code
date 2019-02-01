@@ -1,4 +1,5 @@
-//new program
+//new program for sorting
+//program 26
 import java.util.Scanner;
 import java.util.Arrays;
 class Maximum
