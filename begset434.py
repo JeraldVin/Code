@@ -1,3 +1,3 @@
 #lines
 string=input()
-print(string.count(" ")+1)
+print(string.count(".")+1)
