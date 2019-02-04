@@ -11,6 +11,12 @@ class Groups
 		if(a!=b){
 			if(n%(2*(a+b))==0)
 			System.out.print("YES");
+			else if(n%2==0)
+			{
+			if((((n/2)%a!=0)&&(((n/2)-((n/(2*a))*a))%b==0))||(((n/2)%a!=0)&&(((n/2)-((n/(2*a))*a))%b==0)))
+			System.out.print("YES");
+				
+			}
 			else
 			System.out.print("NO");
 		}
@@ -21,4 +27,3 @@ class Groups
 			System.out.print("NO");
 		}
 	}
-}
