@@ -27,3 +27,4 @@ class Groups
 			System.out.print("NO");
 		}
 	}
+}
