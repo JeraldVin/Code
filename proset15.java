@@ -4,6 +4,7 @@ class Groups
 {
 	public static void main (String[] args)
 	{
+		//your code goes here
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int a=sc.nextInt();
