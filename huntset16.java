@@ -7,8 +7,8 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int[] arr=new int[n];
-		int x=0,flag=0;
-		for(int i=0;i<n;i++){
+		int x=0,flag=0,i;
+		for(i=0;i<n;i++){
 			arr[i]=sc.nextInt();
 			x=arr[i];
 			for(int j=0;j<i;j++){
@@ -22,6 +22,9 @@ class Ideone
 			if(flag==1)
 			break;
 		}
+		if(i==n)
+		System.out.print("unique");
+		else
 		System.out.print(x);
 		
 	}
