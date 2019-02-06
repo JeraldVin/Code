@@ -1,6 +1,6 @@
-n,m=map(int,input().split(" "))
-num1=list(map(int,input().split(" ")))
-num2=list(map(int,input().split(" ")))
+n,m=map(int,input().split())
+num1=list(map(int,input().split()))
+num2=list(map(int,input().split()))
 flag=0
 if n<m:
 	print("NO")
