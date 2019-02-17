@@ -21,6 +21,6 @@ class Ideone
 				p++;
 			}
 		}
-		System.out.print(sum+p);
+		System.out.print((sum+p+)+" ");
 	}
 }
