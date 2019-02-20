@@ -1,5 +1,5 @@
 n,k=map(int,input().split())
-a=1
+a=0
 while True:
 	if k**a==n:
 		print("yes")
