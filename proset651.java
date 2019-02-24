@@ -38,7 +38,11 @@ class Alternate
 			}
 			arr[i]=count;
 		}
-		for(int i=0;i<n;i++)
-		System.out.print(arr[i]+" ");
+		for(int i=0;i<n;i++){
+			if(i!=n-1)
+			System.out.print(arr[i]+" ");
+			else
+			System.out.print(arr[i]);
+		}
 	}
 }
