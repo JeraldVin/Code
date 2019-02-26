@@ -8,8 +8,8 @@ class Swap
 		int x=sc.nextInt();
 		int y=sc.nextInt();
 		x = x ^ y;
-    y = x ^ y; 
-    x = x ^ y;
-    System.out.print(x+" "+y);
+                y = x ^ y; 
+                x = x ^ y;
+                System.out.print(x+" "+y);
 	}
 }
